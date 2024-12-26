@@ -1,0 +1,15 @@
+{
+  "name": "emlm",
+  "version": "1.0.0",
+  "description": "Enhanced Music Library Management API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "RESTapi"
+  ],
+  "author": "Shabeeb K",
+  "license": "ISC"
+}
