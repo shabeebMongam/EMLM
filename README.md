@@ -1,3 +1,38 @@
+# Music API Server
+
+## How to Run the Application
+
+1. Clone the repository
+```bash
+git clone https://github.com/shabeebMongam/EMLM.git
+cd server
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Set up environment variables
+- Create a `.env` file in the root directory
+- Add the following variables:
+```
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+
+4. Start the server
+```bash
+# Development mode
+npm run dev
+
+# Production mode
+npm start
+```
+
+5. The server will be running at `http://localhost:5000`
+
 # Role-Based Access Control
 
 This document outlines the different roles and their permissions in the API system.
