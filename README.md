@@ -5,7 +5,7 @@
 1. Clone the repository
 ```bash
 git clone https://github.com/shabeebMongam/EMLM.git
-cd server
+cd EMLM
 ```
 
 2. Install dependencies
