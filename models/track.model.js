@@ -1,6 +1,20 @@
 import mongoose from 'mongoose';
 
 const trackSchema = new mongoose.Schema({
+    artist_id: {
+        type: String,
+        required: true
+
+    },
+    album_id: {
+        type: String,
+        required: true
+    },
+    track_id: {
+        type: String,
+        required: true,
+        unique: true
+    },
     name: {
         type: String,
         required: true
